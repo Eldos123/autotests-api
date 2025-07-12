@@ -1,76 +1,31 @@
-from typing import TypedDict, List
-
 from httpx import Response
 
 from clients.api_client import APIClient
-from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
-
-class Exercise(TypedDict):
-    """
-    Описание структуры задания.
-    """
-    id: str
-    title: str
-    courseId: str
-    maxScore: int
-    minScore: int
-    orderIndex: int
-    description: str
-    estimatedTime: str
-
-class GetExercisesQueryDict(TypedDict):
-    """
-    Описание структуры запроса на получение списка заданий для определенного курса.
-    """
-    courseId: str
-
-class CreateExerciseRequestDict(TypedDict):
-    """
-    Описание структуры запроса на создание задания.
-    """
-    title: str
-    courseId: str
-    maxScore: int
-    minScore: int
-    orderIndex: int
-    description: str
-    estimatedTime: str
-
-class UpdateExerciseRequestDict(TypedDict):
-    """
-    Описание структуры запроса на обновление данных задания.
-    """
-    title: str | None
-    maxScore: int | None
-    minScore: int | None
-    description: str | None
-    estimatedTime: str | None
-
-class CreateExerciseResponseDict(TypedDict):
-    """
-    Описание структуры ответа создания задания.
-    """
-    exercise: Exercise
-
-class GetExercisesResponseDict(TypedDict):
-    """
-    Описание структуры ответа получения списка заданий.
-    """
-    exercises: List[Exercise]
+from clients.exercises.exercises_schema import (
+    GetExercisesQuerySchema,
+    GetExercisesResponseSchema,
+    CreateExerciseRequestSchema,
+    CreateExerciseResponseSchema,
+    UpdateExerciseRequestSchema,
+    UpdateExerciseResponseSchema,
+    GetExerciseQuerySchema,
+    GetExerciseResponseSchema
+)
+from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
 class ExercisesClient(APIClient):
     """
     Клиент для работы с /api/v1/exercises
     """
 
-    def get_exercises_api(self, query: GetExercisesQueryDict) -> Response:
+    def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Метод получения списка заданий для определенного курса.
 
-        :param query: Словарь с courseId.
+        :param query: Модель запроса с courseId.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.get("/api/v1/exercises", params=query)
+        return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True))
 
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -81,25 +36,25 @@ class ExercisesClient(APIClient):
         """
         return self.get(f"/api/v1/exercises/{exercise_id}")
 
-    def create_exercise_api(self, request: CreateExerciseRequestDict) -> Response:
+    def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Метод создания задания.
 
-        :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description,
+        :param request: Модель запроса с title, courseId, maxScore, minScore, orderIndex, description,
         estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.post("/api/v1/exercises", json=request)
+        return self.post("/api/v1/exercises", json=request.model_dump(by_alias=True))
 
-    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestDict) -> Response:
+    def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         Метод обновления задания.
 
         :param exercise_id: Идентификатор задания.
-        :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
+        :param request: Модель запроса с title, maxScore, minScore, orderIndex, description, estimatedTime.
         :return: Ответ от сервера в виде объекта httpx.Response
         """
-        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request)
+        return self.patch(f"/api/v1/exercises/{exercise_id}", json=request.model_dump(by_alias=True))
 
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -110,47 +65,55 @@ class ExercisesClient(APIClient):
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
-    def get_exercises(self, query: GetExercisesQueryDict) -> GetExercisesResponseDict:
+    def get_exercises(self, query: GetExercisesQuerySchema) -> GetExercisesResponseSchema:
         """
-        Метод получения списка заданий для определенного курса с возвратом JSON-ответа.
+        Метод получения списка заданий для определенного курса с валидацией ответа.
 
-        :param query: Словарь с courseId.
-        :return: Распарсенный JSON-ответ от сервера в виде GetExercisesResponseDict.
+        :param query: Модель запроса с courseId.
+        :return: Валидированная модель ответа получения списка заданий.
+        :raises ValidationError: Если ответ сервера не соответствует схеме.
         """
         response = self.get_exercises_api(query)
-        return response.json()
+        response.raise_for_status()  # Проверка на ошибки HTTP
+        return GetExercisesResponseSchema.model_validate_json(response.text)
 
-    def get_exercise(self, exercise_id: str) -> CreateExerciseResponseDict:
+    def get_exercise(self, query: GetExerciseQuerySchema) -> GetExerciseResponseSchema:
         """
-        Метод получения информации о задании по exercise_id с возвратом JSON-ответа.
+        Метод получения информации о задании по exercise_id с валидацией ответа.
 
-        :param exercise_id: Идентификатор задания.
-        :return: Распарсенный JSON-ответ от сервера в виде CreateExerciseResponseDict.
+        :param query: Модель запроса с exerciseId.
+        :return: Валидированная модель ответа получения задания.
+        :raises ValidationError: Если ответ сервера не соответствует схеме.
         """
-        response = self.get_exercise_api(exercise_id)
-        return response.json()
+        response = self.get_exercise_api(query.model_dump(by_alias=True)["id"])
+        response.raise_for_status()  # Проверка на ошибки HTTP
+        return GetExerciseResponseSchema.model_validate_json(response.text)
 
-    def create_exercise(self, request: CreateExerciseRequestDict) -> CreateExerciseResponseDict:
+    def create_exercise(self, request: CreateExerciseRequestSchema) -> CreateExerciseResponseSchema:
         """
-        Метод создания задания с возвратом распарсенного ответа.
+        Метод создания задания с валидацией ответа.
 
-        :param request: Словарь с title, courseId, maxScore, minScore, orderIndex, description,
+        :param request: Модель запроса с title, courseId, maxScore, minScore, orderIndex, description,
         estimatedTime.
-        :return: Распарсенный JSON-ответ от сервера в виде CreateExerciseResponseDict.
+        :return: Валидированная модель ответа создания задания.
+        :raises ValidationError: Если ответ сервера не соответствует схеме.
         """
         response = self.create_exercise_api(request)
-        return response.json()
+        response.raise_for_status()  # Проверка на ошибки HTTP
+        return CreateExerciseResponseSchema.model_validate_json(response.text)
 
-    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestDict) -> CreateExerciseResponseDict:
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> UpdateExerciseResponseSchema:
         """
-        Метод обновления задания с возвратом JSON-ответа.
+        Метод обновления задания с валидацией ответа.
 
         :param exercise_id: Идентификатор задания.
-        :param request: Словарь с title, maxScore, minScore, description, estimatedTime.
-        :return: Распарсенный JSON-ответ от сервера в виде CreateExerciseResponseDict.
+        :param request: Модель запроса с title, maxScore, minScore, orderIndex, description, estimatedTime.
+        :return: Валидированная модель ответа обновления задания.
+        :raises ValidationError: Если ответ сервера не соответствует схеме.
         """
         response = self.update_exercise_api(exercise_id, request)
-        return response.json()
+        response.raise_for_status()  # Проверка на ошибки HTTP
+        return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
     def delete_exercise(self, exercise_id: str) -> dict:
         """
@@ -158,8 +121,10 @@ class ExercisesClient(APIClient):
 
         :param exercise_id: Идентификатор задания.
         :return: Распарсенный JSON-ответ от сервера.
+        :raises HTTPStatusError: Если сервер вернул ошибку.
         """
         response = self.delete_exercise_api(exercise_id)
+        response.raise_for_status()  # Проверка на ошибки HTTP
         return response.json()
 
 def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:

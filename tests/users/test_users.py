@@ -38,3 +38,5 @@ class TestUsers:
         assert_get_user_response(response_data, function_user.response)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+

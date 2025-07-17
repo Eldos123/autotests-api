@@ -1,11 +1,12 @@
 from pydantic import BaseModel, Field, ConfigDict
 from clients.files.files_schema import FileSchema
 from clients.users.users_schema import UserSchema
+
 # Импортируем заранее созданный экземпляр класса Fake
 from tools.fakers import fake
 
 # Модель курса
-class Course(BaseModel):
+class CourseSchema(BaseModel):
     """
     Описание структуры курса.
     """
@@ -58,7 +59,7 @@ class CreateCourseResponseSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    course: Course
+    course: CourseSchema
 
 # Запрос на обновление курса
 class UpdateCourseRequestSchema(BaseModel):
@@ -80,7 +81,7 @@ class UpdateCourseResponseSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    course: Course
+    course: CourseSchema
 
 # Запрос на получение одного курса
 class GetCourseQuerySchema(BaseModel):
@@ -98,4 +99,16 @@ class GetCourseResponseSchema(BaseModel):
     """
     model_config = ConfigDict(populate_by_name=True)
 
-    course: Course
+    course: CourseSchema
+
+class UpdateCourseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа обновления курса.
+    """
+    course: CourseSchema
+
+class GetCoursesResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на получение списка курсов.
+    """
+    courses: list[CourseSchema]

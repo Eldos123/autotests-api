@@ -2,12 +2,11 @@ import pytest
 from http import HTTPStatus
 
 from clients.exercises.exercises_client import ExercisesClient
-from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
-    GetExerciseQuerySchema, GetExerciseResponseSchema
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, GetExerciseResponseSchema
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.exercises import assert_create_exercise_response, assert_get_exercise_response, assert_exercise
+from tools.assertions.exercises import assert_create_exercise_response, assert_exercise
 from tools.assertions.schema import validate_json_schema
 
 

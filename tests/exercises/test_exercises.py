@@ -39,7 +39,7 @@ class TestExercises:
         # Проверяем, что данные в ответе соответствуют запросу
         assert_create_exercise_response(request, response_data)
 
-    def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture) -> None:
+    def test_get_exercise(self, exercises_client: ExercisesClient, function_exercise: ExerciseFixture):
         """
         Тест проверяет получение задания через API.
 
@@ -61,3 +61,4 @@ class TestExercises:
 
         # Проверяем соответствие JSON-ответа схеме
         validate_json_schema(response.json(), response_data.model_json_schema())
+

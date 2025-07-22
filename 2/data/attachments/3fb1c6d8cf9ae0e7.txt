@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ2LjMxNzA1NiIsInVzZXJfaWQiOiI0NzQxMGExNC05YjY0LTQ4MjMtYmQ3MC0wNmJmMjMzOGIzNjMifQ.lTbtgfcNduf6o53uLooYgAZc6QcNdL-w3g7yhkxa_rU' \
+  -H 'content-length: 551' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Штаб роса посидеть ставить тысяча мелочь.","maxScore":52,"minScore":4,"description":"Коммунизм нож коллектив командующий витрина.\nХозяйка металл райком поговорить грустный тесно. Господь появление сверкающий функция бровь четко угроза.","estimatedTime":"7 weeks","previewFileId":"6829956f-d6ea-47c5-8cc2-9724f2ae7e69","createdByUserId":"47410a14-9b64-4823-bd70-06bf2338b363"}'

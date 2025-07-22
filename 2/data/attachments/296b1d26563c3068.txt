@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4d8dd25c-ba7f-45e4-a4ff-b8c1b74fb80d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ1LjE0NzkxNSIsInVzZXJfaWQiOiJmZDBkYTg5Yy01ZmRhLTQ5ZWEtODVkOC0zMDk5YjE1ZjljNjEifQ.t4DXsHMyqSBnfGmDBLQaHs0E0h_grQ3VmXbFJ4YQKUA' \
+  -H 'content-length: 350' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Белье ручей ночь появление.","maxScore":74,"minScore":30,"description":"Очко приличный спешить ремень исполнять бригада инструкция. Подробность плод рабочий банда кидать выразить ложиться.","estimatedTime":"2 weeks"}'

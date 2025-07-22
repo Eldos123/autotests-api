@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ1LjE0NzkxNSIsInVzZXJfaWQiOiJmZDBkYTg5Yy01ZmRhLTQ5ZWEtODVkOC0zMDk5YjE1ZjljNjEifQ.t4DXsHMyqSBnfGmDBLQaHs0E0h_grQ3VmXbFJ4YQKUA' \
+  -H 'content-length: 438' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Легко труп бочок нож отъезд поставить мусор.","maxScore":68,"minScore":1,"description":"Аллея сынок кидать витрина. Выкинуть расстройство бак потянуться нож пасть банк господь.","estimatedTime":"9 weeks","previewFileId":"0d00a176-793f-4e42-a0c0-5488f00c7701","createdByUserId":"fd0da89c-5fda-49ea-85d8-3099b15f9c61"}'

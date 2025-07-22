@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ3LjUzODg0OSIsInVzZXJfaWQiOiI5OGQwYmUzNy0zYjE0LTQwNWQtYjNlYy03OTI3MTQzYzE3ZjIifQ.9GEo9uqtMV3PZPJVbGuCzGQMfHI56DGeonxvItd--3Q' \
+  -H 'content-length: 588' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Костер дьявол цвет гулять интеллектуальный выбирать отметить фонарик.","maxScore":65,"minScore":30,"description":"Растеряться гулять головной важный. Бетонный полевой июнь устройство палата монета.\nСалон трубка изображать место. Мрачно неправда мгновение.","estimatedTime":"1 weeks","previewFileId":"8deca29c-d62a-47c0-9a39-819edea0cf9d","createdByUserId":"98d0be37-3b14-405d-b3ec-7927143c17f2"}'

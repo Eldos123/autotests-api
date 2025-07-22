@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ1LjcyOTkyMyIsInVzZXJfaWQiOiIxMzZlY2RiMC01MmRkLTQ0MDktODgzMC1jMmY4NjJlNWM3NWUifQ._NLEihVB-Z1tAf8Tm5FdBbi8EHxd_b9hp4qSQVpdW28' \
+  -H 'content-length: 529' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сходить расстегнуть цель.","maxScore":73,"minScore":9,"description":"Функция пробовать полевой настать госпожа. Горький сынок полюбить встать банк следовательно невыносимый.\nОчко понятный полностью художественный избегать.","estimatedTime":"7 weeks","previewFileId":"a93c4c20-cd1a-4e9f-ac09-0f6033d49ae5","createdByUserId":"136ecdb0-52dd-4409-8830-c2f862e5c75e"}'

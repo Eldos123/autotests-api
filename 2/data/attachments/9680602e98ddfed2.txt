@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/7fdc0967-232c-4af4-8afe-7de2bcb6175f
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/7fdc0967-232c-4af4-8afe-7de2bcb6175f
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 7fdc0967-232c-4af4-8afe-7de2bcb6175f
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Обида мимо сбросить столетие угроза прежний армейский.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to ae64224b-85e9-403a-9a85-5041e9587e41
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 82
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Угроза отражение народ угодный. Пол сынок левый. Находить механический оборот возбуждение интеллектуальный.
+Основание выразить а задрать народ. Новый госпожа командующий освобождение процесс.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

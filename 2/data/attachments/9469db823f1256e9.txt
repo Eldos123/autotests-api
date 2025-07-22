@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ0LjU2ODM1MiIsInVzZXJfaWQiOiI2MzU1NDczYS1lZGUzLTQ5OGItOTRjOS02MzA3MTE1MmY1MjAifQ.K5YdMsg640Px4eqFvW4p2WtC_n9-r_iuff-owjuKq_c' \
+  -H 'content-length: 602' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Мера карман конференция анализ изредка.","maxScore":84,"minScore":23,"description":"Житель дрогнуть инструкция песня указанный коробка командование. Степь степь вскакивать полностью палец бочок. Решение разводить вскакивать дорогой мучительно правильный порядок.","estimatedTime":"3 weeks","previewFileId":"03bf07ae-3886-4ee1-8f05-845e008bda50","createdByUserId":"6355473a-ede3-498b-94c9-63071152f520"}'

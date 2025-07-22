@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ2LjkwMDg0MiIsInVzZXJfaWQiOiIxOWMzZTNjNy03YjYwLTQwODEtODAyMC03YThiNDY1YTMyMGIifQ.KET8cJp2px9abzWQ4WUdjeR934hQKxujENw-YmjR8Xw' \
+  -H 'content-length: 463' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Слать желание манера вперед привлекать.","maxScore":84,"minScore":19,"description":"Уточнить сустав постоянный торговля. Обида потянуться инвалид самостоятельно вывести блин приятель блин.","estimatedTime":"4 weeks","previewFileId":"4bbed9b2-8f89-4803-a6cb-4cf6dc110805","createdByUserId":"19c3e3c7-7b60-4081-8020-7a8b465a320b"}'

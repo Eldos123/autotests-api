@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQzLjY4MjA4MCIsInVzZXJfaWQiOiI0YzU4MTQyMy1mZDg4LTRkYjEtODIzZC04ZGMxNTdlZWE1ODAifQ.DJcmS8euvgFoa4swkAgLNxO07aJ2rYwoyZq13nfFcAc' \
+  -H 'content-length: 590' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Спешить полоска при печатать костер смеяться вздрогнуть премьера.","maxScore":65,"minScore":5,"description":"Пропаганда исполнять армейский командование. Разнообразный коммунизм тревога призыв сбросить чувство ныне. Ботинок правление сынок пропадать юный.","estimatedTime":"5 weeks","previewFileId":"cc548d8d-7b3e-43c8-917b-b11d8b1ff441","createdByUserId":"4c581423-fd88-4db1-823d-8dc157eea580"}'

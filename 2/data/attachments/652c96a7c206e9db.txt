@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE3OjI4OjQ4LjExOTAxMCIsInVzZXJfaWQiOiIxMTc3ZTkwNy01YjBlLTQ2YzktYWZiNy03ZTU1ZjI0NGFkNWYifQ.-tcukYYVPhFyei252awPqtA7G4vx324CCG5uHjtNo7g' \
+  -H 'content-length: 548' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вздрогнуть запустить слишком.","maxScore":57,"minScore":17,"description":"Налево голубчик увеличиваться мотоцикл смелый темнеть материя заведение.\nСмелый отдел сравнение конструкция расстегнуть падаль тусклый. Пасть падаль штаб тута.","estimatedTime":"9 weeks","previewFileId":"a1092ec6-4727-47c2-bd40-2870c919be38","createdByUserId":"1177e907-5b0e-46c9-afb7-7e55f244ad5f"}'

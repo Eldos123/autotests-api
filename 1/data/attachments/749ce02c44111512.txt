@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE2OjQ5OjAyLjM3OTA0NiIsInVzZXJfaWQiOiIzZDAxZDY3Ny1kOGE5LTQ4MWMtYWI2Zi1lMTc2NzJkZThkYTcifQ.ehsq6gdVDpwC9_fmVanbwAl-maCGHEh0LNGBg1eTSqo' \
+  -H 'content-length: 649' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Настать падать оставить строительство процесс металл.","maxScore":50,"minScore":5,"description":"Подземный мучительно следовательно запеть мимо ребятишки. Ведь сынок достоинство демократия вытаскивать пространство при. Полностью торговля затянуться манера результат девка угол неудобно.","estimatedTime":"3 weeks","previewFileId":"8d45c34b-550e-4418-93e5-c300a49583eb","createdByUserId":"3d01d677-d8a9-481c-ab6f-e17672de8da7"}'

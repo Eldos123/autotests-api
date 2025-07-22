@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE2OjQ5OjAxLjc0NDYxOSIsInVzZXJfaWQiOiJhZGFiYjRkYS1kMzMyLTQyODctOWJkOC1hMjczNTIzMzZkZWUifQ.UynpBTOQRIN0crnkNMyksK-k7CCisUKXf3hAjO5u6CI' \
+  -H 'content-length: 602' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Эпоха порядок боец господь запустить.","maxScore":62,"minScore":15,"description":"Вперед полоска степь механический спешить ленинград привлекать анализ. Торопливый радость пространство разнообразный инфекция. Холодно научить сверкать процесс беспомощный космос.","estimatedTime":"10 weeks","previewFileId":"a042f739-9578-4b77-a1da-874299764dda","createdByUserId":"adabb4da-d332-4287-9bd8-a27352336dee"}'

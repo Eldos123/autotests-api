@@ -1,0 +1,25 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d000ef4a-6e34-4b1a-ba74-2abac8a54e35
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=d000ef4a-6e34-4b1a-ba74-2abac8a54e35
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:109 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:66 Check that length of "exercises" equals to 1
+INFO     EXERCISE_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to d740832c-0320-4bf9-be80-8231ff92eb95
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Процесс предоставить близко коробка плод.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to d000ef4a-6e34-4b1a-ba74-2abac8a54e35
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 97
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Чем выкинуть зарплата ночь терапия сохранять мусор. Что указанный пища. Пространство цель спичка носок. Что изредка более трясти дальний кожа.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE2OjQ5OjAxLjE2NDk1MyIsInVzZXJfaWQiOiIxMzk1ODNlNC1iOTNkLTRmMTMtYjIyMy0wOTFmZDQxYjMwZWIifQ.m2M1Dr_Bx1u07iKjK1icoIoyvqnLJ6hdbjljfcFMJmI' \
+  -H 'content-length: 485' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Головной горький карман поставить школьный.","maxScore":56,"minScore":19,"description":"Смеяться строительство конференция умирать настать при. Болото тюрьма достоинство низкий. Костер хозяйка угроза.","estimatedTime":"6 weeks","previewFileId":"81e1f0c6-0198-4ae1-bac2-ae25230944de","createdByUserId":"139583e4-b93d-4f13-b223-091fd41b30eb"}'

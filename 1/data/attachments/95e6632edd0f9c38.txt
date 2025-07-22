@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE2OjQ4OjU5Ljk0ODYxNyIsInVzZXJfaWQiOiI3ODAzNzk0Mi01OWEyLTQwZjMtOTBjYi1mNTlmZTc0ZjgzOGQifQ.6pJOkVT6TS3-vbUZiZ5U7t5hNPKU3zqfbCcsoWuh6bI' \
+  -H 'content-length: 564' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Болото ответить командующий.","maxScore":64,"minScore":11,"description":"Применяться цвет советовать заложить. Успокоиться команда тысяча крыса. Около болото засунуть мимо невозможно. Вытаскивать разуметься манера горький художественный куча.","estimatedTime":"5 weeks","previewFileId":"c4aa0392-d8fa-4e52-b11e-b47b9ebb031c","createdByUserId":"78037942-59a2-40f3-90cb-f59fe74f838d"}'

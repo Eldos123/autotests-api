@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2bfcac34-2305-4c33-8cbf-91578f4f757e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE2OjQ4OjU5Ljk0ODYxNyIsInVzZXJfaWQiOiI3ODAzNzk0Mi01OWEyLTQwZjMtOTBjYi1mNTlmZTc0ZjgzOGQifQ.6pJOkVT6TS3-vbUZiZ5U7t5hNPKU3zqfbCcsoWuh6bI' \
+  -H 'content-length: 530' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Невозможно встать мучительно изменение.","maxScore":69,"minScore":23,"description":"Сверкающий одиннадцать налево задрать. Приличный инструкция школьный оставить левый строительство вряд витрина.\nПрежний рай район вздрогнуть через голубчик обида. Вытаскивать товар господь скользить.","estimatedTime":"8 weeks"}'

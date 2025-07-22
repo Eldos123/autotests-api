@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIyVDE2OjQ4OjU4LjcxMzM1MiIsInVzZXJfaWQiOiI1NWZhOWY3Zi00NzU3LTQ0NjAtOWY1Zi00NmNjZDM2Mzg0ZGQifQ.sp8QZo7hXGLRCLI7CsP5866rYsvKrzNYbTHD6vJmCoY' \
+  -H 'content-length: 543' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Адвокат белье пламя банк пространство ломать выраженный.","maxScore":86,"minScore":16,"description":"Прощение смеяться приятель. Приходить покинуть стакан что карандаш нож. Возможно идея эпоха жидкий пересечь тяжелый скрытый плавно.","estimatedTime":"2 weeks","previewFileId":"6928efb9-2812-4b22-9472-2d0b2527e695","createdByUserId":"55fa9f7f-4757-4460-9f5f-46ccd36384dd"}'

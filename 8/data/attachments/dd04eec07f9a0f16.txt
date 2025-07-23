@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjE3LjIxNjk5NCIsInVzZXJfaWQiOiI3NTUyODgwMC1lNDVhLTRkZmMtYTc4MS01NWQ0NGQ0ZTYyZTcifQ.KimT4KDuK_pJ2r0xY5wvJ7rqsQVPZ-7GOMezgUQhsAQ' \
+  -H 'content-length: 629' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Интеллектуальный видимо девка чувство.","maxScore":93,"minScore":20,"description":"Научить столетие выражаться. Носок наткнуться поезд бак при чем.\nМанера смеяться налоговый дошлый армейский потом. Непривычный научить район. Отметить миг тревога сустав полностью находить белье.","estimatedTime":"1 weeks","previewFileId":"74fcbba2-60b7-4338-ada2-93f8b5f562f6","createdByUserId":"75528800-e45a-4dfc-a781-55d44d4e62e7"}'

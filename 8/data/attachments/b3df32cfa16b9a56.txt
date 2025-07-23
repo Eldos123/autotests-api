@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Князь нервно что научить процесс.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 81
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Приходить зима тысяча четыре поймать виднеться. Валюта металл механический ставить. Картинка передо возможно эпоха песня рай. Дружно ночь головка настать вчера белье палата.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 6a4414be-a777-4647-ba37-d52cdb4ebb7d
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 5fe8148c-a7f4-4b78-ae9c-3c790f9512b1
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

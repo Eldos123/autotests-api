@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4a57a420-774a-4a5e-8c34-1f2e1c9cbeea' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjE4LjYyOTk0NyIsInVzZXJfaWQiOiI3Y2JiZDc5ZS00NmNhLTRkM2QtYTJmOC1hOGNjNjFlZTA0ZWIifQ.hU64x1Kmll_onXSBT6x2cywbKPN8IcXM-AZmJjFdx18' \
+  -H 'content-length: 491' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Космос неудобно бетонный кольцо карандаш место.","maxScore":81,"minScore":30,"description":"Передо оставить карандаш ленинград сынок. Граница процесс некоторый второй. Роскошный единый господь дрогнуть деловой означать тревога. Прошептать сомнительный сверкающий.","estimatedTime":"4 weeks"}'

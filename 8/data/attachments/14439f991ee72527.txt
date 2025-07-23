@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjIwLjcxODE3NCIsInVzZXJfaWQiOiI1N2I3YjhkZS03NmFmLTRkOGItOGUzZi1hYmRhOWFhYjFkOTgifQ.ixl2ttoT2kebEgimP0kJntpoVpFmy8Og8YZXhOzFmDY' \
+  -H 'content-length: 571' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дальний умолять аж инструкция.","maxScore":94,"minScore":23,"description":"Дошлый терапия обида затянуться.\nСутки танцевать расстройство настать непривычный точно растеряться адвокат. Лиловый спичка сутки бегать предоставить витрина уничтожение.","estimatedTime":"3 weeks","previewFileId":"7864e5cb-b670-439a-823a-846ea4616339","createdByUserId":"57b7b8de-76af-4d8b-8e3f-abda9aab1d98"}'

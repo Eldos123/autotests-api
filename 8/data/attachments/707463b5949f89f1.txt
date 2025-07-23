@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjIxLjkwNjc3MCIsInVzZXJfaWQiOiI4NGVmM2JhYy0wMWU1LTQ3YTAtOGJhNi0xOGY1YTA4ODljNjgifQ.PeOGWF1BA-e5nASMs3Wg7y8r8XVrMEy7ujISc9R2D6I' \
+  -H 'content-length: 550' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Термин заявление научить райком увеличиваться факультет юный естественный.","maxScore":87,"minScore":16,"description":"Витрина грудь оставить хозяйка. Легко мелочь ярко умолять решение набор неправда. Сутки неожиданно посвятить лететь.","estimatedTime":"9 weeks","previewFileId":"8e88073a-ad92-4384-a352-1ebbcca35f9c","createdByUserId":"84ef3bac-01e5-47a0-8ba6-18f5a0889c68"}'

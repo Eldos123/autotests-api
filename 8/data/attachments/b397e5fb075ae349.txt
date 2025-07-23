@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/997fdcc7-5a38-4d97-a593-58d35eb2123a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjE5LjgwNzI2OCIsInVzZXJfaWQiOiI1MzQ4MDA3My1mYWRiLTRlYWItYTRlMi03YzU5NzkzNWQ1ODYifQ.yzXdxvr_Pir8r5-ebJwLEt9Asj8Z-PpK-4BeFaQT52I' \
+  -H 'content-length: 263' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бровь конференция кидать господь.","maxScore":50,"minScore":20,"orderIndex":87,"description":"Вздрагивать боец вздрогнуть. Ведь природа научить жить.","estimatedTime":"6 weeks"}'

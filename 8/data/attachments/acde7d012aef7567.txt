@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjE4LjM1NTUzNCIsInVzZXJfaWQiOiI1ZmU4MTQ4Yy1hN2Y0LTRiNzgtYWU5Yy0zYzc5MGY5NTEyYjEifQ.fLJU-0nnn65Kc3cBEjCiYoeJmHQ6gjHAYrM8cbVeWVw' \
+  -H 'content-length: 576' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Князь нервно что научить процесс.","maxScore":81,"minScore":30,"description":"Приходить зима тысяча четыре поймать виднеться. Валюта металл механический ставить. Картинка передо возможно эпоха песня рай. Дружно ночь головка настать вчера белье палата.","estimatedTime":"3 weeks","previewFileId":"6a4414be-a777-4647-ba37-d52cdb4ebb7d","createdByUserId":"5fe8148c-a7f4-4b78-ae9c-3c790f9512b1"}'

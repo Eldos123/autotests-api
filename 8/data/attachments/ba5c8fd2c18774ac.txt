@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE1OjM0OjE5LjUzNDQ3NyIsInVzZXJfaWQiOiIxNmI0NWEwYS04YjFmLTQ0NGUtOWU0YS0xMjAwNTllNWMxNGUifQ.HxigywBYXMSFy2XyWyyJmkpHzETsWSTLOPDpAjhkx8U' \
+  -H 'content-length: 548' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Соответствие эффект заплакать жить.","maxScore":61,"minScore":4,"description":"Решение подробность школьный фонарик умирать идея отражение. Командир выражение плясать. Зачем устройство юный правление. Аж спорт выдержать задержать бак.","estimatedTime":"3 weeks","previewFileId":"0391732e-13fe-402c-aa96-c149b5e12a25","createdByUserId":"16b45a0a-8b1f-444e-9e4a-120059e5c14e"}'

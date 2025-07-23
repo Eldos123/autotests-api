@@ -21,7 +21,7 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses
     """
 
-    @allure.step("Get courses")  # Добавили allure шаг
+    @allure.step("Get courses")
     @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
@@ -31,7 +31,7 @@ class CoursesClient(APIClient):
         """
         return self.get(APIRoutes.COURSES, params=query.model_dump(by_alias=True))
 
-    @allure.step("Get course by id {course_id}")  # Добавили allure шаг
+    @allure.step("Get course by id {course_id}")
     @tracker.track_coverage_httpx(f"{APIRoutes.COURSES}/{{course_id}}")
     def get_course_api(self, course_id: str) -> Response:
         """
@@ -41,7 +41,7 @@ class CoursesClient(APIClient):
         """
         return self.get(f"{APIRoutes.COURSES}/{course_id}")
 
-    @allure.step("Create course")  # Добавили allure шаг
+    @allure.step("Create course")
     @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """

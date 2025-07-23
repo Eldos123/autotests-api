@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjUxLjIzNjU4NCIsInVzZXJfaWQiOiIyYzg2N2U2OC05MmZlLTQxNWYtODZlZS0xZThmMjVjMDdlZmMifQ.mGbMPTLmM6lEl6d2UNm7P9XmLuGDG2iaxOsC9UMnbUk' \
+  -H 'content-length: 526' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Основание через подземный прежний.","maxScore":76,"minScore":24,"description":"Поколение передо появление ночь да район багровый танцевать. Иной мальчишка рай советовать кожа лиловый. Низкий дурацкий угол желание запретить.","estimatedTime":"4 weeks","previewFileId":"068c50e0-5856-413d-b7e9-1bf5178b960d","createdByUserId":"2c867e68-92fe-415f-86ee-1e8f25c07efc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjU0LjQ5MTc2NSIsInVzZXJfaWQiOiJhZTU4NTYxMi00NGZhLTQ0NjQtYTljOC03MjcyZDU0YTQwZTAifQ.DBVn4GLoaeg34l9iPSrSJEefU9aY3u11z3vOMlEKCfk' \
+  -H 'content-length: 581' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Чем возникновение отъезд видимо человечек лететь.","maxScore":100,"minScore":15,"description":"Очутиться решение пол висеть новый порода инвалид. Эпоха материя дошлый беспомощный. Карандаш пасть падаль. Заплакать еврейский очко коллектив передо песенка.","estimatedTime":"7 weeks","previewFileId":"31ceab99-105f-4d4f-8200-7e0352aa0a16","createdByUserId":"ae585612-44fa-4464-a9c8-7272d54a40e0"}'

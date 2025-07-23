@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjUyLjQwOTIzMyIsInVzZXJfaWQiOiJmODNiNDI5Yi05ZDk0LTRlN2EtYTY2Ny0xMTBkMDVlODc0ODYifQ.bi03CDiErXgG_KajteFrZyqt6hxOzL_B7uonT8tv2S8' \
+  -H 'content-length: 620' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Непривычный потом эпоха песня обида армейский протягивать крутой.","maxScore":79,"minScore":11,"description":"Войти ставить низкий важный пересечь оборот.\nКоммунизм мера непривычный запеть отъезд команда лиловый. Уточнить голубчик столетие сынок угроза сверкающий настать.","estimatedTime":"6 weeks","previewFileId":"a643add8-f2f9-4fcc-b088-d428b347e131","createdByUserId":"f83b429b-9d94-4e7a-a667-110d05e87486"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjUwLjk2Mzk0NSIsInVzZXJfaWQiOiIzNWUyYThlMi0yNjRhLTRlZDMtOWRkMC0wOTRlY2MwNzAyZDYifQ.1OadhzJ75TNQzmzo0KCJQYvIku4wYN1uJzb8xyYsAM4' \
+  -H 'content-length: 561' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Плавно ремень вскинуть пламя выразить.","maxScore":52,"minScore":19,"description":"Растеряться предоставить полюбить левый гулять. Подробность советовать какой что промолчать серьезный. Кпсс термин совещание порт применяться сбросить около.","estimatedTime":"10 weeks","previewFileId":"1421ba04-af49-4934-a10c-41e21faa3a4d","createdByUserId":"35e2a8e2-264a-4ed3-9dd0-094ecc0702d6"}'

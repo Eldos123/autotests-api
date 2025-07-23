@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjQ5LjgxODc3OSIsInVzZXJfaWQiOiI3N2M4YThmZi1iYmQ5LTQxMTItODE0My0xZDEyM2RlYTY5YjgifQ.eShOOPi6Bd530UYJ7ExUrXWitx5fO30Xw03I6J1MbdU' \
+  -H 'content-length: 517' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Другой славный коллектив иной ныне жестокий.","maxScore":76,"minScore":3,"description":"Дурацкий изучить передо блин блин. Мимо конструкция господь намерение. Разуметься приличный лиловый аж правый висеть упор материя.","estimatedTime":"7 weeks","previewFileId":"6b6b063d-6956-4e93-88ba-2252927bb675","createdByUserId":"77c8a8ff-bbd9-4112-8143-1d123dea69b8"}'

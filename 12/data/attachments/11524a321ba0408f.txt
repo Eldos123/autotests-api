@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7849a054-da3a-4bb9-9564-5655645c0828' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjUxLjIzNjU4NCIsInVzZXJfaWQiOiIyYzg2N2U2OC05MmZlLTQxNWYtODZlZS0xZThmMjVjMDdlZmMifQ.mGbMPTLmM6lEl6d2UNm7P9XmLuGDG2iaxOsC9UMnbUk' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Голубчик пища построить пасть пересечь ведь очутиться важный.","maxScore":75,"minScore":12,"description":"Лапа зарплата отдел запеть коробка. Виднеться собеседник что. Что развернуться цвет.","estimatedTime":"10 weeks"}'

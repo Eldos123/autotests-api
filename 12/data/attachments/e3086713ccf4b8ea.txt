@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjUzLjMwNjY0MSIsInVzZXJfaWQiOiIwZDgwZjhmMi02ZGMzLTRiY2EtYTA5NS0zN2RlZGJkYmRkMGMifQ.sTZM_Uu2yOatMtxnBGLYHfc3NpoS4xF7_zNqlrHJ2X8' \
+  -H 'content-length: 439' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Премьера цвет выраженный.","maxScore":99,"minScore":15,"description":"Триста покидать расстройство чувство голубчик дремать. Намерение умирать посидеть один плавно инструкция.","estimatedTime":"9 weeks","previewFileId":"26a59abb-c245-49c4-8f67-bf3e687719da","createdByUserId":"0d80f8f2-6dc3-4bca-a095-37dedbdbdd0c"}'

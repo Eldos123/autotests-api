@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ2OjUyLjEzNjYxMiIsInVzZXJfaWQiOiI2MzBmZTgxNy02YzY2LTQ5ODEtODZlZC0xMDE5MWU3NWY3NmEifQ.BPYvCJSBgL5KCJdAuNqiV61CS_6cRcgNmU6YMD-H8G4' \
+  -H 'content-length: 572' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Совет функция возникновение ночь вздрогнуть направо.","maxScore":99,"minScore":20,"description":"Плясать дошлый багровый реклама поколение спичка хозяйка. Смелый да зеленый руководитель сустав спорт. Дремать славный плясать горький мера опасность.","estimatedTime":"6 weeks","previewFileId":"429022dc-eaa8-4304-bc0e-c427bfbfb939","createdByUserId":"630fe817-6c66-4981-86ed-10191e75f76a"}'

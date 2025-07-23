@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDEwOjQ1OjQyLjc1MjMwOCIsInVzZXJfaWQiOiJmM2E3MWU4ZS0xMDBmLTQ1Y2ItOTBhMC1kMDBjY2RlM2NiMDIifQ.h7ZyglON6zCoMaVTejPZ-rx-ZQSRv0JsxJpyEPCvPV8' \
+  -H 'content-length: 539' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Райком висеть вперед шлем прежде.","courseId":"3b550239-e50c-457f-b729-83140ac6ef96","maxScore":78,"minScore":19,"orderIndex":21,"description":"Порода кольцо запустить мгновение вариант июнь карман через.\nЗато рот голубчик очередной девка. Сбросить более недостаток помимо коробка опасность. Освобождение боец плавно рот.","estimatedTime":"7 weeks"}'

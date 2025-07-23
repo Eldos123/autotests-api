@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDEwOjQ1OjQzLjMzODUzMCIsInVzZXJfaWQiOiI3MzU3ZmYwMC0yNGM5LTRhZWUtOWM1Ny05NjFhN2FiODZmZGIifQ.jAjvyCnS_LfzuwkYrKhvukMVS8oKwZkWfJfRjmpXQ80' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Невозможно сохранять болото горький близко.","maxScore":77,"minScore":13,"description":"Военный строительство сравнение коробка. Мелькнуть монета самостоятельно.","estimatedTime":"8 weeks","previewFileId":"a3bc64f6-6fc9-4733-a1b9-e7d10a40ae36","createdByUserId":"7357ff00-24c9-4aee-9c57-961a7ab86fdb"}'

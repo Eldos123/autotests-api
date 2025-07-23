@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDEwOjQ1OjQzLjMzODUzMCIsInVzZXJfaWQiOiI3MzU3ZmYwMC0yNGM5LTRhZWUtOWM1Ny05NjFhN2FiODZmZGIifQ.jAjvyCnS_LfzuwkYrKhvukMVS8oKwZkWfJfRjmpXQ80' \
+  -H 'content-length: 484' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Необычный добиться шлем крутой правление ставить при.","courseId":"9acbdee7-f0dc-4938-b67b-f6231bd24422","maxScore":77,"minScore":8,"orderIndex":55,"description":"Актриса школьный мелькнуть чувство тревога. Обида тысяча торопливый мера пропасть пространство. Торопливый зачем рабочий обида.","estimatedTime":"1 weeks"}'

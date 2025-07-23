@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDEwOjQ1OjQyLjE2NzQxNCIsInVzZXJfaWQiOiIwNWJmZWVkMy01Y2ZlLTQyNzctYmFkYS0xYjQyMzdhZDkyNmYifQ.m1kCfgeWhZpU0mcf5vbVelxQJvLzKVJqkLrTFHq9_kM' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Прелесть еврейский место упор.","maxScore":98,"minScore":2,"description":"Труп полюбить угроза столетие идея. Выгнать роскошный свежий армейский нож решетка.","estimatedTime":"6 weeks","previewFileId":"dc6336f1-b32b-4089-bfa7-eed805cabab6","createdByUserId":"05bfeed3-5cfe-4277-bada-1b4237ad926f"}'

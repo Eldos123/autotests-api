@@ -1,0 +1,26 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=34e2ed1e-de2a-424c-b400-9fea3bc4d3e5
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=34e2ed1e-de2a-424c-b400-9fea3bc4d3e5
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:109 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:66 Check that length of "exercises" equals to 1
+INFO     EXERCISE_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to e50c334e-525e-4176-ad54-50a24e527830
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Перебивать издали порода заложить князь освободить граница.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 34e2ed1e-de2a-424c-b400-9fea3bc4d3e5
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 64
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 19
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Палец призыв полевой. Слать а более белье торопливый.
+Самостоятельно смелый умолять кожа изредка монета социалистический. Полностью низкий дошлый назначить цвет виднеться домашний серьезный.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 7 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

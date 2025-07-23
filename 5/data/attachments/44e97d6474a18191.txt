@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDEwOjQ1OjQ0LjU1NjA2MCIsInVzZXJfaWQiOiIyNzYyOWU2ZS01OGY0LTQzZmYtOTc0Yi1iY2M2Njk5YWQ4ODQifQ.Yz-toTVktxn4UQH1LUVmvDEh9CK-2y-DTxKP0Xat_98' \
+  -H 'content-length: 529' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Штаб непривычный поколение настать темнеть.","maxScore":99,"minScore":20,"description":"Житель а снимать эпоха набор. Инструкция правление оборот мгновение юный. Дыхание единый скользить потрясти секунда намерение поколение.","estimatedTime":"1 weeks","previewFileId":"d5921e2b-4b07-4ca5-91a0-536beadd5e70","createdByUserId":"27629e6e-58f4-43ff-974b-bcc6699ad884"}'

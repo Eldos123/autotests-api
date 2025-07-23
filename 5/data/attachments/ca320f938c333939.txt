@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDEwOjQ1OjQ1LjE0MTExMSIsInVzZXJfaWQiOiI3Y2ViYTRkOC0wODY5LTQxNjEtODFlNi1hNzE2NGVkYmJiOTAifQ.pHw1h-R4LPSLnr9Lz28akrCddJRnKxENt2Wg-IsEkGk' \
+  -H 'content-length: 449' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Сутки умолять наткнуться природа тревога кпсс.","maxScore":82,"minScore":17,"description":"Заплакать ход спичка провал. Дремать протягивать пропадать конструкция чувство степь изба.","estimatedTime":"2 weeks","previewFileId":"8dda80d6-af97-4bed-8130-5a2b9dba71e1","createdByUserId":"7ceba4d8-0869-4161-81e6-a7164edbbb90"}'

@@ -9,7 +9,7 @@ class APIClient:
     def __init__(self, client: Client):
         self.client = client
 
-    @allure.step("Make GET request to {url}")  # Добавили allure шаг
+    @allure.step("Make GET request to {url}")
     def get(self, url: URL | str, params: QueryParams | None = None) -> Response:
         """
         Выполняет GET-запрос.

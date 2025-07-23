@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIyLjM1MjQ2OCIsInVzZXJfaWQiOiIxY2E2MzBjZi0zZGNjLTRkM2EtOTA0OS1iMDI1NTY4M2Q3OTgifQ.lEqsYn0RudbF0MOPew_dOTPBVygXSqRh_1d9sx0SSrI' \
+  -H 'content-length: 466' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Термин возможно крутой сутки спорт что.","maxScore":88,"minScore":22,"description":"Услать полюбить роскошный кольцо лапа. Промолчать трубка реклама изба угол магазин. Добиться природа район.","estimatedTime":"10 weeks","previewFileId":"25a13952-a519-483b-b999-ceea26b0596c","createdByUserId":"1ca630cf-3dcc-4d3a-9049-b0255683d798"}'

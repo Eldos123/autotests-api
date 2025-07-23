@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIxLjQyMjE1OCIsInVzZXJfaWQiOiIzODA5MjNhMS1jYmUzLTQ3NDEtYmQwZi01ZjJlZGY4OTc2NjIifQ.Med_69I_dUIx3nvYGYsTcYODx1naZ-wLV_ByW8bwuPU' \
+  -H 'content-length: 582' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Направо желание четко.","maxScore":68,"minScore":7,"description":"Девка висеть реклама решетка полевой.\nПолоска миг наткнуться жидкий инфекция. Слишком правление прежде выразить растеряться вперед.\nПотом освободить число. Природа тесно добиться монета.","estimatedTime":"3 weeks","previewFileId":"977b524c-6f58-4a8e-a350-a17ac86e4a72","createdByUserId":"380923a1-cbe3-4741-bd0f-5f2edf897662"}'

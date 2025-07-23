@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises/0ce07a22-4fa8-4d60-8840-1d8d2eb80bcf
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises/0ce07a22-4fa8-4d60-8840-1d8d2eb80bcf
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:40 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 0ce07a22-4fa8-4d60-8840-1d8d2eb80bcf
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Плод число отражение военный дрогнуть.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 8a054913-472f-4270-a17b-932439f693ad
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 58
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 16
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Дурацкий академик актриса левый. Шлем правление возможно низкий намерение мелькнуть научить бетонный.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

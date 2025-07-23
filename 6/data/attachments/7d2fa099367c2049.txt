@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIwLjI1NDgwMyIsInVzZXJfaWQiOiI3NTc4YWQ3ZC02N2NkLTQwYmEtOTg5MC0xMGY0NzM1NWRjOGUifQ.I3M5qU1TT4nJpRDZZ99sMNCR0oKJZPGAP7iW77O-424' \
+  -H 'content-length: 641' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Штаб увеличиваться наткнуться мелочь холодно заплакать.","maxScore":90,"minScore":24,"description":"Невыносимый заработать конструкция ложиться прежде решетка развитый. Избегать покинуть прежде художественный близко конструкция адвокат отъезд. Шлем остановить блин лапа подробность.","estimatedTime":"1 weeks","previewFileId":"375facb8-7c1c-4bd9-b211-0126ede4fd41","createdByUserId":"7578ad7d-67cd-40ba-9890-10f47355dc8e"}'

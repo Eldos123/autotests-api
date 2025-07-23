@@ -1,0 +1,36 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+        Тест проверяет создание курса через API.
+        ","26","Create course","LMS service","Wed Jul 23 10:36:20 GMT 2025","passed","Wed Jul 23 10:36:20 GMT 2025","Create entity","Courses","",""
+"","13","Get file","LMS service","Wed Jul 23 10:36:25 GMT 2025","passed","Wed Jul 23 10:36:25 GMT 2025","Get entity","Files","",""
+"","261","Get file with incorrect file id","LMS service","Wed Jul 23 10:36:27 GMT 2025","passed","Wed Jul 23 10:36:27 GMT 2025","Validate entity","Files","",""
+"","527","Create user","LMS service","Wed Jul 23 10:36:26 GMT 2025","passed","Wed Jul 23 10:36:27 GMT 2025","Create entity","Users","",""
+"","265","Create file with empty filename","LMS service","Wed Jul 23 10:36:26 GMT 2025","passed","Wed Jul 23 10:36:26 GMT 2025","Validate entity","Files","",""
+"
+        Тест проверяет создание задания через API.
+
+        :param exercises_client: Экземпляр ExercisesClient для выполнения API-запросов
+        :param function_course: Фикстура, предоставляющая данные курса
+        :raises AssertionError: Если код ответа, тело ответа или JSON-схема не соответствуют ожидаемым
+        ","16","Create exercise","LMS service","Wed Jul 23 10:36:21 GMT 2025","passed","Wed Jul 23 10:36:21 GMT 2025","Create entity","Exercises","",""
+"","523","Create user","LMS service","Wed Jul 23 10:36:27 GMT 2025","passed","Wed Jul 23 10:36:27 GMT 2025","Create entity","Users","",""
+"","556","Create user","LMS service","Wed Jul 23 10:36:27 GMT 2025","passed","Wed Jul 23 10:36:28 GMT 2025","Create entity","Users","",""
+"","30","Update course","LMS service","Wed Jul 23 10:36:20 GMT 2025","passed","Wed Jul 23 10:36:20 GMT 2025","Update entity","Courses","",""
+"","552","Login with correct email and password","LMS service","Wed Jul 23 10:36:18 GMT 2025","passed","Wed Jul 23 10:36:19 GMT 2025","Login","Authentication","",""
+"","19","Delete file","LMS service","Wed Jul 23 10:36:25 GMT 2025","passed","Wed Jul 23 10:36:25 GMT 2025","Delete entity","Files","",""
+"","25","Get courses","LMS service","Wed Jul 23 10:36:19 GMT 2025","passed","Wed Jul 23 10:36:19 GMT 2025","Get entities","Courses","",""
+"","12","Get user me","LMS service","Wed Jul 23 10:36:28 GMT 2025","passed","Wed Jul 23 10:36:28 GMT 2025","Get entity","Users","",""
+"","288","Get exercises","LMS service","Wed Jul 23 10:36:23 GMT 2025","passed","Wed Jul 23 10:36:24 GMT 2025","Get entities","Exercises","",""
+"","295","Update exercise","LMS service","Wed Jul 23 10:36:21 GMT 2025","passed","Wed Jul 23 10:36:22 GMT 2025","Update entity","Exercises","",""
+"","18","Create file with empty directory","LMS service","Wed Jul 23 10:36:26 GMT 2025","passed","Wed Jul 23 10:36:26 GMT 2025","Validate entity","Files","",""
+"
+        Тест проверяет получение задания через API.
+
+        :param exercises_client: Экземпляр ExercisesClient для выполнения API-запросов
+        :param function_exercise: Фикстура, предоставляющая данные задания
+        :raises AssertionError: Если код ответа, тело ответа или JSON-схема не соответствуют ожидаемым
+        ","284","Get exercise","LMS service","Wed Jul 23 10:36:22 GMT 2025","passed","Wed Jul 23 10:36:22 GMT 2025","Get entity","Exercises","",""
+"
+        Тест проверяет удаление задания и последующую попытку его получения.
+        ","19","Delete exercise","LMS service","Wed Jul 23 10:36:23 GMT 2025","passed","Wed Jul 23 10:36:23 GMT 2025","Delete entity","Exercises","",""
+"","15","Create file","LMS service","Wed Jul 23 10:36:24 GMT 2025","passed","Wed Jul 23 10:36:24 GMT 2025","Create entity","Files","",""

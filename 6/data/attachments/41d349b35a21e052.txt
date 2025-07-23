@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIxLjY5NzUyMyIsInVzZXJfaWQiOiIwMDNhN2I1NC0xYzA4LTQ5MGMtYTQ4Ny03ODBjMTlhNWQ0MjUifQ.xKPMXF43twja_s-WByM4XOJqZXtYTtENZV64601k6W8' \
+  -H 'content-length: 412' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Уронить парень миг серьезный.","courseId":"b9f929b1-35a5-4607-b8f1-bbbdd3cf9f0c","maxScore":97,"minScore":1,"orderIndex":13,"description":"Встать расстройство висеть пропаганда. Хотеть спалить грудь карман секунда монета. Магазин светило обида изредка.","estimatedTime":"9 weeks"}'

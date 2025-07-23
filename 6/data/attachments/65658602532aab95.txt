@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIyLjkzMjkxOSIsInVzZXJfaWQiOiJhOTZiMWRhYi0xNGYxLTRlZmUtYjZlZS04YjUxYWQ2YWM5OGMifQ.GbK-XSwjo1jHyZ-dnHYsLs5sYSRIChbfpwxdyvZ6jKg' \
+  -H 'content-length: 559' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Слишком житель коробка да.","maxScore":94,"minScore":25,"description":"Счастье следовательно исполнять поговорить. Передо тусклый торопливый понятный порог.\nПриходить трубка радость полностью волк. Рай дьявол способ редактор поставить изба.","estimatedTime":"9 weeks","previewFileId":"66543ddf-00ac-4b55-942c-4423fdd64e65","createdByUserId":"a96b1dab-14f1-4efe-b6ee-8b51ad6ac98c"}'

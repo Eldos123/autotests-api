@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIwLjUyODU2NSIsInVzZXJfaWQiOiIzN2YzMjExYS1hMGQ0LTRlYWQtYTUxYS1kYjA1ZDdjMDkyZTUifQ.MmX8FNVGSEJH6MBeR_iaD2JqFso4ymYaGQKc-5bC0_Q' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Передо самостоятельно механический угроза изредка.","maxScore":90,"minScore":15,"description":"Ложиться неправда поезд набор сбросить эффект. Упор мимо металл тяжелый.","estimatedTime":"1 weeks","previewFileId":"aa99cc30-8b03-4513-9f21-b15f90def8ed","createdByUserId":"37f3211a-a0d4-4ead-a51a-db05d7c092e5"}'

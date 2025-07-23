@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIxLjY5NzUyMyIsInVzZXJfaWQiOiIwMDNhN2I1NC0xYzA4LTQ5MGMtYTQ4Ny03ODBjMTlhNWQ0MjUifQ.xKPMXF43twja_s-WByM4XOJqZXtYTtENZV64601k6W8' \
+  -H 'content-length: 595' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Возможно около картинка серьезный угодный выкинуть идея.","maxScore":96,"minScore":21,"description":"Возникновение манера провинция спорт потом. Невыносимый плод выкинуть прелесть поставить.\nВойти вывести ночь. Человечек заведение заложить новый кидать поезд.","estimatedTime":"3 weeks","previewFileId":"015ae53a-2550-455f-a702-eef0deb13a63","createdByUserId":"003a7b54-1c08-490c-a487-780c19a5d425"}'

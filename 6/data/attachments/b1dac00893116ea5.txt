@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIzLjU2NDA0NiIsInVzZXJfaWQiOiJkNzQxYTVmOS0wODJkLTQ1ZDUtYjMyZS1jYWFkNTcwOTI1YzAifQ.fn7E3vkiN980OetdOcX_il5d9-azDcKH45hV4lLFjpw' \
+  -H 'content-length: 535' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Пропадать ягода ложиться солнце.","maxScore":60,"minScore":1,"description":"Спасть правление около задрать предоставить низкий механический. Ломать вообще жестокий изредка столетие рассуждение труп ломать. Тесно о каюта помимо.","estimatedTime":"5 weeks","previewFileId":"b3e00fc7-2d8e-4b58-8141-5f1f77003eea","createdByUserId":"d741a5f9-082d-45d5-b32e-caad570925c0"}'

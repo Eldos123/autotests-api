@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Штаб увеличиваться наткнуться мелочь холодно заплакать.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Невыносимый заработать конструкция ложиться прежде решетка развитый. Избегать покинуть прежде художественный близко конструкция адвокат отъезд. Шлем остановить блин лапа подробность.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 375facb8-7c1c-4bd9-b211-0126ede4fd41
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 7578ad7d-67cd-40ba-9890-10f47355dc8e
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:21 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Ярко непривычный тяжелый труп цель пересечь.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 0ea2ae70-c0f6-413d-9c96-a319b22b0b6b
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 25
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Невыносимый опасность миг появление терапия видимо. Отражение валюта светило. Вытаскивать витрина потом вывести означать терапия оставить.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 90
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 weeks

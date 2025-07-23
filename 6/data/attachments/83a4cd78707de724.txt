@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/e5fae6bd-ca9d-4ae7-9ad0-0cb0b3c8ed29' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDExOjA2OjIwLjUyODU2NSIsInVzZXJfaWQiOiIzN2YzMjExYS1hMGQ0LTRlYWQtYTUxYS1kYjA1ZDdjMDkyZTUifQ.MmX8FNVGSEJH6MBeR_iaD2JqFso4ymYaGQKc-5bC0_Q' \
+  -H 'content-length: 520' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Факультет правый порода неправда заплакать.","maxScore":72,"minScore":12,"description":"Июнь волк выбирать плод. Крыса означать художественный дурацкий командование собеседник. Левый умирать славный заявление неудобно. Уничтожение устройство добиться строительство дыхание цвет.","estimatedTime":"3 weeks"}'

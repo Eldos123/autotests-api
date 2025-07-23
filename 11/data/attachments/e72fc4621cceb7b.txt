@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjE3LjA1MTkwMSIsInVzZXJfaWQiOiJiYWRhYzE1MS1hOTdmLTRmY2UtYTRlOC0xODU1ZWMzNTdhOTUifQ.vCLhUIVsyNexMH4Ea5hPt_gW_sz4IO1h6oY7AZBBUSo' \
+  -H 'content-length: 565' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Гулять бетонный заведение монета рис порт поймать.","maxScore":87,"minScore":5,"description":"Деловой вывести банк о набор. Бегать табак похороны пробовать провал желание манера. Нож отметить мусор коллектив изредка печатать выражаться умирать.","estimatedTime":"4 weeks","previewFileId":"01acc9fb-e070-4f1c-acb4-bcbd0a653406","createdByUserId":"badac151-a97f-4fce-a4e8-1855ec357a95"}'

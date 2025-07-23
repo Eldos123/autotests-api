@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjE1LjEzNzIxMyIsInVzZXJfaWQiOiJhMzcxOTcyYy1iZTcyLTQ1ZDUtOWY0OC1hYjIxNDgzNGZjYTgifQ.4HITRZArU7izqy9hmeokM3RfaBwddLgA5_O5KY1BkOE' \
+  -H 'content-length: 592' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Покинуть число провал неправда жестокий оставить.","courseId":"ab78f7a0-be81-428c-88f2-317c13b4b7b2","maxScore":87,"minScore":8,"orderIndex":26,"description":"Степь заявление сынок. Роса валюта плясать угроза бок печатать освободить.\nПоявление палка триста триста сынок слишком легко. Неправда радость пробовать очутиться столетие темнеть мотоцикл.","estimatedTime":"4 weeks"}'

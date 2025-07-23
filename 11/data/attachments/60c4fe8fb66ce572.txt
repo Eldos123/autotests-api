@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjEzLjk2MzA4MiIsInVzZXJfaWQiOiIxNTI3NzMxYi00NzZiLTRiYzItODgzNS0wODk2ZmZlYTdlMzEifQ.wbENIwQx7gD-Tzb8DRsYQOZk99pqWw7vRnuLenM5qis' \
+  -H 'content-length: 403' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Командующий ломать актриса ночь настать.","maxScore":68,"minScore":16,"description":"Князь пятеро бок пламя ведь. Избегать природа поговорить палец покидать.","estimatedTime":"5 weeks","previewFileId":"cfe26072-3682-4a17-9a75-256a14d47eec","createdByUserId":"1527731b-476b-4bc2-8835-0896ffea7e31"}'

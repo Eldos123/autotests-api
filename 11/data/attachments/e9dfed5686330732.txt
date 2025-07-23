@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjEyLjU0MjYyMCIsInVzZXJfaWQiOiIxNTg2MGIwZS0zZmExLTQ4MmYtYjNlNy02YjFmZWVkMDg5MzMifQ.QoHsamOkP-ccPjCVykoH4pIO8Lhqp-Gcm1WPC87iFQk' \
+  -H 'content-length: 465' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Изучить уточнить деловой пропасть.","maxScore":54,"minScore":3,"description":"Пропасть приличный достоинство привлекать палата бок витрина. Правильный фонарик собеседник редактор торговля.","estimatedTime":"2 weeks","previewFileId":"77972c59-2f0d-4f7b-9bfd-c3bece5051a1","createdByUserId":"15860b0e-3fa1-482f-b3e7-6b1feed08933"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjEzLjY4OTE3NCIsInVzZXJfaWQiOiI3ZDAzM2YwNS03NTEwLTRjODEtOWRhYS0zYmJlYTYxODE0NjMifQ.cOGGZ5DWSLJhdcJeHQDOLqAqXYr4q_TjCyDdM37FCOI' \
+  -H 'content-length: 598' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Дорогой ученый мучительно скрытый головка зато увеличиваться.","maxScore":97,"minScore":4,"description":"Постоянный тусклый сходить увеличиваться освобождение выраженный. Бабочка достоинство дальний четыре услать. Дошлый потом термин возможно кольцо дурацкий.","estimatedTime":"4 weeks","previewFileId":"9e3abb94-83ad-422c-be82-4909df68169a","createdByUserId":"7d033f05-7510-4c81-9daa-3bbea6181463"}'

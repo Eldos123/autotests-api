@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjE1LjEzNzIxMyIsInVzZXJfaWQiOiJhMzcxOTcyYy1iZTcyLTQ1ZDUtOWY0OC1hYjIxNDgzNGZjYTgifQ.4HITRZArU7izqy9hmeokM3RfaBwddLgA5_O5KY1BkOE' \
+  -H 'content-length: 490' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Коричневый степь сынок эффект фонарик.","maxScore":88,"minScore":27,"description":"Печатать строительство освобождение костер гулять радость житель. Чем голубчик важный поколение дружно цвет князь войти.","estimatedTime":"3 weeks","previewFileId":"a623da22-ee37-43f9-b14e-82417d85e6bd","createdByUserId":"a371972c-be72-45d5-9f48-ab214834fca8"}'

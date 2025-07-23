@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/1daec146-1e77-4f55-ab03-d5d226ed4639' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjEzLjk2MzA4MiIsInVzZXJfaWQiOiIxNTI3NzMxYi00NzZiLTRiYzItODgzNS0wODk2ZmZlYTdlMzEifQ.wbENIwQx7gD-Tzb8DRsYQOZk99pqWw7vRnuLenM5qis' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Неправда исполнять художественный цепочка кольцо новый.","maxScore":100,"minScore":17,"description":"Плясать дурацкий ручей упорно. Назначить металл аллея терапия цвет. Кузнец основание встать вчера художественный художественный.","estimatedTime":"3 weeks"}'

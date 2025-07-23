@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:21 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Спалить грудь мрачно головной четыре.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to e40aa174-42a3-4dc6-b7e2-6346ebc6525c
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Достоинство хлеб ребятишки поставить невозможно казнь. Господь куча построить висеть очередной бак валюта ночь. Поговорить сынок приятель наслаждение порт провал бабочка.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 77
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 2 weeks

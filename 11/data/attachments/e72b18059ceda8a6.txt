@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjE2LjM4Nzc2MiIsInVzZXJfaWQiOiJhMmE2ODcyOS1kYmU2LTQ5YzktYmViYy04MzBmYTQ4ZTMxNDUifQ.7GmYCcaAghwGZrNteWb2EOwoLkATWM0CuaCJTfRNyEQ' \
+  -H 'content-length: 529' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Свежий мгновение остановить вообще нервно материя.","maxScore":91,"minScore":20,"description":"Хозяйка задрать левый аж. Ход роскошный сохранять ложиться куча прежний аж. Очко спорт витрина мальчишка металл тысяча потянуться.","estimatedTime":"3 weeks","previewFileId":"3b86cd13-c7c8-4022-a7df-d542cf6c8b68","createdByUserId":"a2a68729-dbe6-49c9-bebc-830fa48e3145"}'

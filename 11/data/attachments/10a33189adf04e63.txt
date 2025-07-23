@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE2OjQ0OjE0Ljg2MzQzMiIsInVzZXJfaWQiOiIwZTIzOGJmMC03Y2ZjLTQ1ZjgtODhjMC04MTMxNjQ0MzIyNzIifQ.5TtLzst622bSrmgJgBWNW5ViBA7Ai4oK6hgayVsK7xA' \
+  -H 'content-length: 659' \
+  -H 'content-type: application/json' \
+  -d '{"title":"За господь ломать около конструкция наступать упор.","maxScore":84,"minScore":4,"description":"Приличный нажать правильный ход покинуть правый совещание. Белье пятеро темнеть одиннадцать банк реклама угол. Бабочка сынок хозяйка умирать выраженный плод. Аж витрина постоянный изменение вскинуть.","estimatedTime":"9 weeks","previewFileId":"fdf6f97d-ac7f-4a81-be50-139989106016","createdByUserId":"0e238bf0-7cfc-45f8-88c0-813164432272"}'

@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/courses?userId=420024e3-2fb3-4cc0-8c20-355e2009b81a
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=420024e3-2fb3-4cc0-8c20-355e2009b81a
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:89 Check get courses response
+INFO     BASE_ASSERTIONS:base.py:66 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:64 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 67b5ba77-f78e-480e-8c76-3c8fd1dd90c2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Очередной возможно плавно запеть падать опасность скользить.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 56
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Мимо триста художественный применяться достоинство. Порядок лапа пересечь витрина вывести четко плод цвет. Добиться оставить цвет актриса.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:37 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 654a2085-28e2-4efc-b472-052540ece7f2
+INFO     BASE_ASSERTIONS:base.py:35 Check that "url" equals to http://localhost:8000/static/tests/aa4cf0e8-3492-4267-b9e7-7501c02b29a1.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "filename" equals to aa4cf0e8-3492-4267-b9e7-7501c02b29a1.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:32 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 420024e3-2fb3-4cc0-8c20-355e2009b81a
+INFO     BASE_ASSERTIONS:base.py:35 Check that "email" equals to milovanilin@example.org
+INFO     BASE_ASSERTIONS:base.py:35 Check that "last_name" equals to Родионова
+INFO     BASE_ASSERTIONS:base.py:35 Check that "first_name" equals to Захар
+INFO     BASE_ASSERTIONS:base.py:35 Check that "middle_name" equals to Всеслав
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

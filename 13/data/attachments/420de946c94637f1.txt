@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjQwLjM1MzY0OSIsInVzZXJfaWQiOiJhZjVjNDM3NS0zYmZiLTRjNmMtOGZlOS03OTcyODU2OTk0NzYifQ.RmKlV01H96aLqC1ekIo23d4dHENwNkKgZfgwstIqNsQ' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Инфекция крыса появление.","maxScore":71,"minScore":10,"description":"Металл сопровождаться число сверкающий полевой человечек холодно. Передо страсть головка невозможно.","estimatedTime":"2 weeks","previewFileId":"ebf3449b-247c-46ee-aeab-a39bc63fad68","createdByUserId":"af5c4375-3bfb-4c6c-8fe9-797285699476"}'

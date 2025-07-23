@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM4LjkwMTM3NiIsInVzZXJfaWQiOiJjYWNlODlmNi0xM2YyLTQ5NDctYjg1Ny1lYzQ3Y2JlOTJmOTYifQ.rQ_dfBhxSaNdg-4cix8l2gaMMWXrXZe7Zv-ONroICCU' \
+  -H 'content-length: 660' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Один умолять передо порода снимать направо трубка домашний.","maxScore":81,"minScore":29,"description":"Левый господь означать а зеленый адвокат. Невыносимый порядок болото юный деловой. Миллиард правление добиться исследование голубчик. Мгновение команда тесно назначить новый тревога тусклый.","estimatedTime":"10 weeks","previewFileId":"5f5bad13-5866-4303-a6bb-6790a9766788","createdByUserId":"cace89f6-13f2-4947-b857-ec47cbe92f96"}'

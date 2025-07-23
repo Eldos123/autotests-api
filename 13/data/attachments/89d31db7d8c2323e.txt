@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d7dcc6aa-3708-4d7a-bb45-e5d1d3f141d7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM4LjAwNTg2MyIsInVzZXJfaWQiOiIxMmIwNTA4Yi1kMDZiLTQyNWMtYTcxMy0xNjdiNTYyNDBkMjEifQ.cjf9-HoR9v1F_TSJWRDY6LMINp2s0pYN-INsgmrVVP4' \
+  -H 'content-length: 303' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Палка число легко сомнительный.","maxScore":83,"minScore":6,"description":"Пространство выбирать избегать кольцо. Пропаганда отражение руководитель упорно носок.","estimatedTime":"10 weeks"}'

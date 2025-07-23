@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM3LjczMzA4MSIsInVzZXJfaWQiOiI2MTk3NDFhNi1lYzVmLTQ2YWItYjllNC0xZmIwNDYwZTU5ODcifQ.L4K6T6dIDNh2BtjuwDtrD38cZtuGkPzszGtZlxS-hcw' \
+  -H 'content-length: 621' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Вздрогнуть лапа салон тревога слать.","maxScore":59,"minScore":10,"description":"Ягода о палата радость палата зачем рабочий добиться. Виднеться выдержать правление миф.\nПокидать художественный промолчать бетонный задержать. Появление спорт боец доставать помолчать передо.","estimatedTime":"4 weeks","previewFileId":"1177ed28-7e2c-4807-ba1e-f4392ba7e97b","createdByUserId":"619741a6-ec5f-46ab-b9e4-1fb0460e5987"}'

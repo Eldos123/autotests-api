@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM2LjU5MDM2MCIsInVzZXJfaWQiOiI0MjAwMjRlMy0yZmIzLTRjYzAtOGMyMC0zNTVlMjAwOWI4MWEifQ.GF7LC2kYzZzVsclJ2kgaSunsuRK03MzVbIelXVrkNf4' \
+  -H 'content-length: 564' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Очередной возможно плавно запеть падать опасность скользить.","maxScore":56,"minScore":7,"description":"Мимо триста художественный применяться достоинство. Порядок лапа пересечь витрина вывести четко плод цвет. Добиться оставить цвет актриса.","estimatedTime":"1 weeks","previewFileId":"654a2085-28e2-4efc-b472-052540ece7f2","createdByUserId":"420024e3-2fb3-4cc0-8c20-355e2009b81a"}'

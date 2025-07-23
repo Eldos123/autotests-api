@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM5LjE3NDI4NyIsInVzZXJfaWQiOiIyNWFmNjdmZC03YWNmLTRkN2ItOWNkNy04ZTJmMjdhZWQ3YjcifQ.osSVmYiLrxEUoRzV3bXmyuK_nO0HWdBFxSiHUIYR6Fk' \
+  -H 'content-length: 620' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Зима цепочка тревога выбирать тюрьма собеседник.","maxScore":50,"minScore":23,"description":"Другой падать печатать плавно издали жить. Эффект функция изображать.\nБолее указанный сомнительный непривычный функция тута человечек. Построить некоторый вскинуть коробка ломать.","estimatedTime":"1 weeks","previewFileId":"46d727ac-6845-47ef-9596-17b428f8c767","createdByUserId":"25af67fd-7acf-4d7b-9cd7-8e2f27aed7b7"}'

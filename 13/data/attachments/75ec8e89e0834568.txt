@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM5LjE3NDI4NyIsInVzZXJfaWQiOiIyNWFmNjdmZC03YWNmLTRkN2ItOWNkNy04ZTJmMjdhZWQ3YjcifQ.osSVmYiLrxEUoRzV3bXmyuK_nO0HWdBFxSiHUIYR6Fk' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Спорт порядок посидеть недостаток интернет совет танцевать.","courseId":"7254c041-3c28-4e49-8660-12bbeca22835","maxScore":95,"minScore":28,"orderIndex":2,"description":"Хозяйка приятель пропаганда войти. Иной возникновение домашний манера.","estimatedTime":"4 weeks"}'

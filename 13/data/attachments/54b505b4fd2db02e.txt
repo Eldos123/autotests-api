@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM4LjAwNTg2MyIsInVzZXJfaWQiOiIxMmIwNTA4Yi1kMDZiLTQyNWMtYTcxMy0xNjdiNTYyNDBkMjEifQ.cjf9-HoR9v1F_TSJWRDY6LMINp2s0pYN-INsgmrVVP4' \
+  -H 'content-length: 465' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Армейский ярко счастье жидкий академик рота.","maxScore":62,"minScore":20,"description":"Один точно парень полевой налево вскинуть выражение сбросить. Монета отдел покидать запустить космос.","estimatedTime":"8 weeks","previewFileId":"763ac89b-1742-4a87-a12a-1fa6f3faaccd","createdByUserId":"12b0508b-d06b-425c-a713-167b56240d21"}'

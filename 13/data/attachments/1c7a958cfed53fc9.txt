@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjQwLjA3OTcwNCIsInVzZXJfaWQiOiI3ZjkxOGExNC01NjZjLTQ3YjQtYWE1Yi1mN2RhNThhNGQ5MmQifQ.XQ2vA0FVksghHCGt4VbQlJGMDARWxQ8EZCx6g7vtduo' \
+  -H 'content-length: 649' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Уточнить дрогнуть важный спорт миф успокоиться строительство.","maxScore":68,"minScore":19,"description":"Протягивать рот пропадать костер зато протягивать. Заплакать четыре трясти металл слишком невыносимый.\nНож полоска освобождение ребятишки народ. Научить монета дыхание кидать пасть.","estimatedTime":"10 weeks","previewFileId":"164a3188-a1e9-44fa-b4ee-742b95a25528","createdByUserId":"7f918a14-566c-47b4-aa5b-f7da58a4d92d"}'

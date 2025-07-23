@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjQxLjAzODI5OSIsInVzZXJfaWQiOiI0MDhmMzBmZi1hZWY3LTQzN2EtYmUyYS02NDgwOWNhNWU1ZWIifQ.gupctwKE-_PsN3p2Dv4JcoolQBMZYSz3YFGymWL2xnQ' \
+  -H 'content-length: 546' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Способ запустить угроза господь роскошный рассуждение.","maxScore":56,"minScore":7,"description":"Бок труп дьявол некоторый результат. Провинция коробка палата светило термин умолять. Полностью возникновение рай ребятишки помолчать.","estimatedTime":"3 weeks","previewFileId":"5ad4de1d-4f6e-4a17-9334-3257366b844c","createdByUserId":"408f30ff-aef7-437a-be2a-64809ca5e5eb"}'

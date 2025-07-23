@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTIzVDE3OjEwOjM4LjkwMTM3NiIsInVzZXJfaWQiOiJjYWNlODlmNi0xM2YyLTQ5NDctYjg1Ny1lYzQ3Y2JlOTJmOTYifQ.rQ_dfBhxSaNdg-4cix8l2gaMMWXrXZe7Zv-ONroICCU' \
+  -H 'content-length: 575' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Исследование терапия конференция сынок решетка.","courseId":"18e710fb-99e1-4363-9054-6aeefab0021a","maxScore":59,"minScore":5,"orderIndex":9,"description":"Сбросить реклама жидкий. Носок мимо космос передо изучить промолчать. Возмутиться тута сопровождаться дурацкий оставить отметить выражаться. Падать рот спорт рассуждение тесно спорт.","estimatedTime":"2 weeks"}'

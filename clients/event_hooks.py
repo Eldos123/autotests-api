@@ -18,7 +18,7 @@ def curl_event_hook(request: Request):
     allure.attach(curl_command, "cURL command", allure.attachment_type.TEXT)
 
 
-def log_request_event_hook(request: Request):  # Создаем event hook для логирования запроса
+def log_request_event_hook(request: Request):
     """
     Логирует информацию об отправленном HTTP-запросе.
 

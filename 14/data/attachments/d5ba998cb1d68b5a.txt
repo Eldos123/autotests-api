@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ4LjYzNzM4MCIsInVzZXJfaWQiOiJkNTM5YzUyOC1hYjRhLTQ4NTYtYWZmMi05NDdiMjIxNzNjYzUifQ.ddah-KUi22oy_RYfJkEbTALrOiY4GA4q6YuXwx7MNKU' \
+  -H 'content-length: 617' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Штаб низкий видимо протягивать выразить а одиннадцать.","maxScore":61,"minScore":10,"description":"Важный дремать поезд горький демократия потом. Приличный кожа тусклый построить господь невозможно. Выразить сверкающий штаб правый. Невыносимый покидать витрина исполнять.","estimatedTime":"9 weeks","previewFileId":"a73e30bb-9141-40aa-b432-dfe4229160f8","createdByUserId":"d539c528-ab4a-4856-aff2-947b22173cc5"}'

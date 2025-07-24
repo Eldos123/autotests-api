@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ1LjYzNDY0MiIsInVzZXJfaWQiOiJmMTNkMWM5Yi1jN2M0LTRmZjMtYjMzMi02NTJhMTIwMDE5ZWYifQ.EG9h0NWxSy6vTc7jlf0XIsK-4nKAZlPgKtAZDwp3gPA' \
+  -H 'content-length: 620' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Девка прелесть при карман блин.","maxScore":77,"minScore":10,"description":"Советовать табак иной факультет вытаскивать падать. Район коробка естественный указанный крыса танцевать. Правление песенка выражаться аллея костер легко слишком. Мера возмутиться видимо еврейский.","estimatedTime":"2 weeks","previewFileId":"41743ba8-23e3-4572-b141-93af6f88048d","createdByUserId":"f13d1c9b-c7c4-4ff3-b332-652a120019ef"}'

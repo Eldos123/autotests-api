@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/cca561d9-07f8-432f-87f5-66075a09231f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ4LjA0MzQxNSIsInVzZXJfaWQiOiI4MjAyZTEzYi02MDlmLTQzMDYtOWNlZS1hMzBhMjhjM2JiMGEifQ.HH5a5FfBTzZEADRFPgYGeksaJqKdmeBEMBABUJVJV9M' \
+  -H 'content-length: 474' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Факультет приятель магазин домашний крутой редактор.","maxScore":95,"minScore":5,"orderIndex":60,"description":"Близко рассуждение горький жидкий приличный горький. Ремень сопровождаться гулять пространство багровый. Да тусклый голубчик назначить соответствие.","estimatedTime":"1 weeks"}'

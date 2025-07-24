@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ4LjA0MzQxNSIsInVzZXJfaWQiOiI4MjAyZTEzYi02MDlmLTQzMDYtOWNlZS1hMzBhMjhjM2JiMGEifQ.HH5a5FfBTzZEADRFPgYGeksaJqKdmeBEMBABUJVJV9M' \
+  -H 'content-length: 594' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Что прежде прежний сбросить выразить дорогой ботинок.","maxScore":56,"minScore":20,"description":"Сходить покидать провинция провинция изучить развернуться неожиданно. Народ лапа ярко скользить самостоятельно спалить реклама.\nРазуметься а зачем уничтожение.","estimatedTime":"10 weeks","previewFileId":"feeeca57-4229-4702-8495-2d541b3d9eeb","createdByUserId":"8202e13b-609f-4306-9cee-a30a28c3bb0a"}'

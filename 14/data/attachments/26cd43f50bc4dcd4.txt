@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ4LjA0MzQxNSIsInVzZXJfaWQiOiI4MjAyZTEzYi02MDlmLTQzMDYtOWNlZS1hMzBhMjhjM2JiMGEifQ.HH5a5FfBTzZEADRFPgYGeksaJqKdmeBEMBABUJVJV9M' \
+  -H 'content-length: 453' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Бабочка труп тревога лететь адвокат.","courseId":"d7cd9886-2e3c-4fe0-a4ea-1075f46f15fc","maxScore":75,"minScore":3,"orderIndex":98,"description":"Аж демократия важный сверкающий витрина славный сохранять низкий. Банк домашний демократия парень. Сынок еврейский триста совет.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ2LjIyNzIzOCIsInVzZXJfaWQiOiIwMmIwOTRjMy01YjdhLTQyNTUtYjNjMy05MTUzYzI4YTdjZmQifQ.-lNXn3UJH9o5zK-Hb-LYDIhDfsj-ZKZaLc0_KtAIi1U' \
+  -H 'content-length: 489' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Прежний аллея армейский скользить конструкция порт.","maxScore":53,"minScore":18,"description":"Подземный еврейский вздрогнуть. Место некоторый актриса порог дурацкий. Похороны угроза обида беспомощный.","estimatedTime":"4 weeks","previewFileId":"7b54be49-d1e2-41dd-b1ed-eea5f317c92f","createdByUserId":"02b094c3-5b7a-4255-b3c3-9153c28a7cfd"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ5Ljg3ODY2MSIsInVzZXJfaWQiOiIxYWZhYWE4Mi1mYWI0LTRiMTItODk3MC01OWZiZThiYWY5MjMifQ.q4bRoJ9k0JSYUw2J2c2l5-zZawVziS1yMs0Ra_1U6Zk' \
+  -H 'content-length: 519' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Очутиться дремать госпожа коллектив уронить степь.","maxScore":85,"minScore":4,"description":"Боец научить упор.\nЗадрать очутиться интеллектуальный строительство актриса вообще фонарик. Дремать советовать висеть ныне.","estimatedTime":"1 weeks","previewFileId":"e1c9e3ab-6d0c-4ff3-a2a3-faab3f0798d1","createdByUserId":"1afaaa82-fab4-4b12-8970-59fbe8baf923"}'

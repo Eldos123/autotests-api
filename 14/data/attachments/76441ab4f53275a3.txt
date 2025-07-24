@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ3LjQwMDU0NCIsInVzZXJfaWQiOiIzODUwMzRlZS1hN2M2LTRkYjctYWRhMi1jMDM5ZGRmYjBkOGMifQ.yB1SniecsT8JIuTUP4j-cgmn3gCl886seWHOySVXqwY' \
+  -H 'content-length: 541' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ночь тревога бригада слишком куча задержать терапия.","maxScore":81,"minScore":17,"description":"Магазин ягода ныне каюта. Горький изредка столетие хотеть мера.\nКрутой предоставить потрясти подробность. Степь результат мера вообще.","estimatedTime":"2 weeks","previewFileId":"429a8fe2-3f7d-437f-a2a7-b3c98df489eb","createdByUserId":"385034ee-a7c6-4db7-ada2-c039ddfb0d8c"}'

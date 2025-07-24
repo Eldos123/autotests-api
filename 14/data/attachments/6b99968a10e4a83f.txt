@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA3LTI0VDA0OjIyOjQ2LjgxNTcyOSIsInVzZXJfaWQiOiJkNzkzNDZlNC1iZjM3LTRlNjgtOWIxZi1lNDRjNTAzYmRlZWIifQ.CliwRfqJD_55OtXI1VKQMsSsATV5lJrsNabAEmP0NDQ' \
+  -H 'content-length: 615' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Точно актриса житель неправда равнодушный падаль.","maxScore":55,"minScore":10,"description":"Материя вряд советовать поезд привлекать. Дошлый тяжелый отметить костер банда построить выражаться.\nПятеро да функция возникновение за снимать. Граница зеленый табак командир.","estimatedTime":"8 weeks","previewFileId":"f6391f5b-685e-465f-828a-8c8c9c377329","createdByUserId":"d79346e4-bf37-4e68-9b1f-e44c503bdeeb"}'

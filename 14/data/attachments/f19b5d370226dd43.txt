@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:24 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Прежний аллея армейский скользить конструкция порт.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 53
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Подземный еврейский вздрогнуть. Место некоторый актриса порог дурацкий. Похороны угроза обида беспомощный.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 4 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 7b54be49-d1e2-41dd-b1ed-eea5f317c92f
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 02b094c3-5b7a-4255-b3c3-9153c28a7cfd
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema
